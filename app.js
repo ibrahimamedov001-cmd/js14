@@ -76,6 +76,16 @@ let arr8=[1,2,3,4,5]
 let newarr=arr8.sort(()=>Math.random()-0.5)
 console.log(newarr);
  
+console.log("--------------");
+//9 eyni olanlari ayri yigmag
+let arr=[1,1,2,4,3,5,3,7,3]
+ let n=[]
+ for(let i=0;i<arr.length;i++){
+    if(arr.indexOf(arr[i])!==i){
+        n.push(arr[i])
+    }
+ }
+console.log(n);
     
 
 
