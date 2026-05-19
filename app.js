@@ -64,7 +64,10 @@ for(i=0;i<arr7.length;i++){
     console.log(arr7[i]);
     plural += arr7[i]   
 }
+let average=plural / arr7.length
 console.log(plural);
+
+console.log(average);
 
 console.log("--------------");
 
